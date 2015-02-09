@@ -1,4 +1,5 @@
 var berries = {
+    name: "Vaccinium corymbosum"
     GrowsOnShrub: '3 tonnes',
     isMeatEater: Yes,
     Energy: 240 kJ,
@@ -7,6 +8,7 @@ var berries = {
 };
 
 var grapes = {
+    name: "Vitis vinifera",
     GrowsOnShrub: No,
     Energy: 288 kJ,
     Carbohydrates: 18.1 g,
@@ -14,6 +16,7 @@ var grapes = {
 };
 
 var currant = {
+    name: "Ribes rubrum",
     Grows on shrub: Yes,
     Energy: 234 kJ,
     Carbohydrates: 13.8 g,
