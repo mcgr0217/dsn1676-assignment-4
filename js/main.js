@@ -28,32 +28,6 @@ var currant = {
     Protein: 1.4
 };
 
-var berry = [blueberries, grapes, currant];
-
-berry.forEach(function (item) {
-    document.write('<dl>');
-    
-    document.write('<dt>name:</dt>');
-    document.write('<dd>' + item.name + '</dd>');
-    
-    document.write('<dt>latin:</dt>');
-    document.write('<dd>' + item.latin + '</dd>');
-    
-    document.write('<dt>GrowsOnShrub:</dt>');
-    document.write('<dd>' + item.GrowsOnShrub + '</dd>');
-    
-    document.write('<dt>Energy:</dt>');
-    document.write('<dd>' + item.Energy + '</dd>');
-    
-    document.write('<dt>Carbohydrates:</dt>');           document.write('<dd>' + item.Carbohydrates + '</dd>');
-    
-    document.write('<dt>Protein:</dt>');
-    document.write('<dd>' + item.Protein + '</dd>');
-    
-    
-    document.write('</dl>');
-});
-
 var writeBerry = function (berryName) {
     berryName.forEach(function (item) {
     document.write('<dl>');
@@ -81,4 +55,3 @@ var writeBerry = function (berryName) {
 };
 
 writeBerry( [currant, grapes, blueberries] );
-writeBerry( [blueberries, grapes, currant] );
