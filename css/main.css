@@ -1,7 +1,22 @@
 dt {
     color: darkblue;
+    float: left;
 }
 
 dd {
-    background-color: lightgreen;
+    background-color: white;
+    margin-left: 10rem;
+    padding: 2px;
+    padding-left: 15px;
+}
+
+dl {
+    background-color: lightgray;
+    border-bottom-style: double;
+    border-top-style: double;
+    padding: 2rem;
+}
+
+body {
+    background-color: black;
 }
