@@ -17,6 +17,12 @@ dl {
     padding: 2rem;
 }
 
+dl:hover {
+    background-color: lightblue;
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+
 body {
     background-color: darkblue;
 }
