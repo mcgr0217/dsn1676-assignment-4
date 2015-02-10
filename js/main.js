@@ -80,5 +80,5 @@ var writeBerry = function (berryName) {
     });
 };
 
-writeBerry( [currant, grapes] );
-writeBerry( [grapes, currant] );
+writeBerry( [currant, grapes, blueberries] );
+writeBerry( [blueberries, grapes, currant] );
